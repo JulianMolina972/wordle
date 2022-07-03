@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #121f3d;
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 2px;
+  background: transparent;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+h1 {
+  /* margin: 10px 0 10px 0; */
+  text-align: center;
+  font-size: 5rem;
+  /* padding: 30px 0; */
+}
+
+
+main {
+  width: 50%;
+  min-width: 600px;
+  margin: 0 auto;
+}
+figure {
+  display: flex;
+  place-content: center;
+}
+
+figure img{
+
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  /* margin-top: -10px; */
+}
+
+/* span {
+  margin: -10px 0 0 0;
+}
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  margin: -10px 0 0 0;
+
+} */
+
+#grid{
+  margin: 20px 0;
+  display: grid;
+  place-content: center;
+}
+
+.grid-row{
+  display: flex;
+  padding: 5px;
+}
+
+.grid-item{
+  border: 1px solid gray;
+  width: 45px;
+  height: 45px;
+  margin: 0 10px;
+  display: grid;
+  place-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+
+.gray {
+  background-color: gray;
+}
+
+.green {
+  background-color: green;
+}
+
+.brown {
+  background-color: brown;
+}
+
+#keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+
+}
+
+.button--reset {
+  /* margin: 20px; */
+  margin-top: 20px;
+  width: 50%;
+  background-color: cornflowerblue;
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+}
+
+#enter {
+  width: 76px;
+  background-color: green;
+}
+
+#delete {
+  width: 76px;
+  background-color: red;
+}
+
+#a {
+  margin-left: 30px;
+}
