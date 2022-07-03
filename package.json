@@ -1,0 +1,27 @@
+{
+  "name": "wordle",
+  "version": "1.0.0",
+  "description": "wordle",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianMolina972/wordle.git"
+  },
+  "keywords": [
+    "javaScript",
+    "css",
+    "html"
+  ],
+  "author": "Julian Molina <juliandavidmv@ufps.edu.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JulianMolina972/wordle/issues"
+  },
+  "homepage": "https://github.com/JulianMolina972/wordle#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
